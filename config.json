@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "localhost",
+        "name": "taskraft",
+        "username": "mattdanking",
+        "password": "cdiHi5OeC0vbEtr8"
+    }
+}

@@ -1,0 +1,329 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+    width: 100%;
+    font-size: 24px;
+    font-family: Courier, Monospace;
+}
+
+.nav-tabs a {
+    color: #4E7275;
+    
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+
+/* TASK STYLES */
+
+#task_info {
+    position: relative;
+}
+
+#task_border {
+    border: 3px solid #4E7275;
+    border-radius: 40px;
+    height: 50px;
+    width: 145px;
+    position: absolute;
+    top: 0;
+    right: 15em;
+}
+
+#task_stats {
+    padding: 6px;
+}
+
+.task_icon {
+    height: 30px;
+    margin-top: -8px;
+    margin-left: 6px;
+}
+
+.task_num {
+    font-size: 24px;
+    margin-top: 2em;
+    color: #272E30;
+    margin-right: 4px;
+}
+
+#date {
+    font-family: Courier, Monospace;
+    position: absolute;
+    top: 0.8em;
+    left: 14em;
+}
+
+#task_list {
+    padding-top: 2em;
+}
+
+.task_tbl {
+    width: 100%;
+    margin: 0 auto 2em auto;
+}
+
+.table_head {
+    text-align: center;
+}
+
+.task_check {
+    width: 30%;
+}
+
+.task_name {
+    font-family: Verdana, sans-serif;
+    color: #272E30;
+    font-size: 16px;
+}
+
+.task_complete {
+    width: 30%;
+    
+}
+
+.task_header {
+    font-family: Courier, Monospace;
+    font-weight: bolder;
+    color: #4E7275;
+}
+
+.btn-info, .completed {
+    background-color: #4E7275;
+    border: #272E30;
+    font-size: 8px;
+    visibility: hidden;
+}
+
+/* NEW TASK STYLES */
+
+#nav_tab {
+    width: 100%;
+}
+
+#task_add {
+    width: 5%;
+    border-radius: 4px;
+    background-color: #84C4D6;
+}
+
+#task_add a:hover {
+    background-color: #A2CEDB;
+}
+
+.task_tab {
+    width: 30%;
+}
+
+.new_task_input {
+    width: 20em !important;
+}
+
+#new_task_form {
+    margin-top: 7em;
+}
+
+
+
+/* ACTIVITY STYLES */
+
+.activity_container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.activity_nav {
+    margin: -1.8em auto 1em auto;
+    text-align: center;
+    padding-left: 45%;
+}
+
+.activity_nav a {
+    color: #272E30;
+}
+
+.nav-pills > .active > a {
+    background-color: #4E7275 !important;
+}
+
+.activity_tr {
+    font-size: 18px;
+}
+
+.activity_user {
+    color: #4E7275;
+}
+
+
+
+/* PROFILE STYLES */
+
+#profile_picture {
+	overflow: hidden;
+}
+
+#profile_picture img {
+    border: solid #4E7275;
+    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#profile_class {
+    color: #4E7275;
+    width: 120px;
+    margin: 0 auto 0 auto;
+    padding-bottom: -5em;
+    border-bottom: 1px solid #85877C;
+}
+
+#profile_class h3 {
+    margin-bottom: -3px;
+}
+
+#profile_class_txt {
+    margin-top: 0em;
+    color: #85877C;
+}
+
+#profile_table {
+    width: 60%;
+    margin: 2em auto 4em auto;
+    font-size: 16px;
+}
+
+.task_count, .streak_count, .xp, .badge_count {
+    width: 25%;
+}
+
+.task_count, .xp, .streak_count, .badge_count {
+    font-weight: bold;
+    color: #272E30;
+}
+
+#task_count, #xp, #streak_count, #badge_count {
+    color: #4E7275;
+}
+
+.header_div {
+    background-color: #4E7275;
+    width: 100%;
+    height: 3em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    display: table;
+}
+
+.header_div h1, h2 {
+    color: white;
+    font-family: Courier, Monospace;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header_div h1 {
+    font-weight: 700;
+}
+
+#badge_container {
+    width: 100%;
+    margin: auto;
+    left: -10px;
+}
+
+.badge_box {
+    position: relative;
+    border: 4px solid #4E7275;
+    border-radius: 4px;
+    margin: 1em;
+    height: 12em;
+    width: 18em;
+}
+
+.badge_box_achieved {
+    position: relative;
+    border: 4px solid #272E30;
+    background-color: #84C4D6;
+    border-radius: 4px;
+    margin: 1em;
+    height: 12em;
+    width: 18em;
+}
+
+.badge_row {
+    display: inline-flex;
+}
+
+.badge_name {
+    width: 100%;
+    padding-bottom: 0.6em;
+}
+
+.badge_name h4 {
+    color: #272E30;
+    font-family: Courier, Monospace;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.badge_image {
+    height: 4em;
+}
+
+.badge_description {
+    position: absolute;
+    color: #4E7275;
+    background-color: white;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    border-radius: 4px;
+    border-top: solid;
+}
+
+.badge_description p {
+    margin-top: 0.2em;
+}
